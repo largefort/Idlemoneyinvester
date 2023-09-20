@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Idle Money Investment Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Idle Money Investment Game</h1>
+        <div class="balance-container">
+            <p>Your Balance:</p>
+            <p class="balance">$<span id="balance">0</span></p>
+        </div>
+        <div class="buttons-container">
+            <button id="investButton">Invest</button>
+            <button id="collectButton" disabled>Collect</button>
+        </div>
+        <div class="options-container">
+            <label for="autoInvestCheckbox">Auto Invest:</label>
+            <input type="checkbox" id="autoInvestCheckbox">
+            <button id="saveButton">Save</button>
+            <button id="loadButton">Load</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
